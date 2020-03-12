@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/faculty.css')}}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-menu">
+            <a href="/" class="active">Home</a>
+            <a href="/login">Login/Register</a>
+            <a href="/faculty">Faculty</a>
+            <a href="#">Academics</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact Us</a>
+
+        </div>
+    </div>
+
+
+    <div class="heading">
+        <H1 style="padding: 10px 0;">Faculties of the Department</H1>
+    </div>
+    <div class="container">
+        
+        <details>
+            <img src="{{url_for('static',filename='img/co-od.jpg')}}" alt="error loading">
+            <summary>SMT. KALPANA. C. DALWAI</summary> 
+            <p>Co-ordinator</p>
+        </details>
+        <details>
+            <img src="{{url_for('static',filename='img/ns.jpg')}}" alt="error loading">
+            <summary>DR. NAGARAJA. S</summary> 
+            <p>Assistant Processor</p>
+        </details>
+        <details>
+            <img src="{{url_for('static',filename='img/ar.jpg')}}" alt="error loading">
+            <summary>SMT. AMBIKA. R</summary> 
+            <p>Assistant Processor</p>
+        </details>
+        <details>
+            <img src="{{url_for('static',filename='img/lrn.jpg')}}" alt="error loading">
+            <summary>SMT. LALITHA. R. NAIK</summary> 
+            <p>Assistant Processor</p>
+        </details>
+        <details>
+            <img src="{{url_for('static',filename='img/rajj.jpg')}}" alt="error loading">
+            <summary>SHRI. RAJASHEKHAR. V. BARAKER</summary> 
+            <p>Assistant Processor</p>
+        </details>
+    </div>
+   
+
+</body>
+</html>

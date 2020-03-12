@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/about.css') }}">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-menu">
+            <a href="/" class="active">Home</a>
+            <a href="/login">Login/Register</a>
+            <a href="/faculty">Faculty</a>
+            <a href="#">Academics</a>
+            <a href="/about">About Us</a>
+            <a href="/contact">Contact Us</a>
+        </div>
+    </div>
+    <div class="background-img">
+        <!-- <img src="{{url_for('static',filename='img/about-bg.jpg')}}" alt=""> -->
+        <h1>About Us</h1>
+        <p>This is what we do</p>
+    </div>
+
+    <div class="info">
+        <div class="info-style">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit corporis ex quisquam facilis possimus. Magnam incidunt saepe nostrum temporibus eos laborum soluta debitis quas, repudiandae ipsum recusandae veritatis cum maxime!</p>
+        </div>
+        <div class="info-style">
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maiores, sit mollitia tenetur esse laboriosam ratione quis reiciendis est eos atque distinctio, aliquam omnis assumenda quia nam totam, perferendis soluta!. Lorem ipsum dolor sit amet.
+               </p>
+        </div>
+        <div class="info-style">
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus rerum dolor nihil assumenda reiciendis aut, amet omnis saepe excepturi eligendi dolorum itaque hic at qui tenetur deleniti laboriosam! Vel, optio!. Lorem ipsum dolor sit amet. 
+            </p>
+            
+        </div>
+    </div>
+    <hr>
+<footer class="footer">
+    <div class="social-icons">
+        <img src="{{url_for('static',filename='img/twitter.png')}}" alt="">
+        <img src="{{url_for('static',filename='img/facebook.png')}}" alt="">
+        <img src="{{url_for('static',filename='img/instagram.png')}}" alt="">
+    </div>
+    <div class="copy">
+        Copyright &copy; BSc (CS) and BCA Department 2020
+    </div>
+</footer>
+</body>
+</html>
